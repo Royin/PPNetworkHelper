@@ -31,7 +31,6 @@
 		224086611D7074EA007E4E15 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2240864C1D7074EA007E4E15 /* UIImageView+AFNetworking.m */; };
 		224086621D7074EA007E4E15 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2240864F1D7074EA007E4E15 /* UIProgressView+AFNetworking.m */; };
 		224086631D7074EA007E4E15 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 224086511D7074EA007E4E15 /* UIRefreshControl+AFNetworking.m */; };
-		224086641D7074EA007E4E15 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 224086531D7074EA007E4E15 /* UIWebView+AFNetworking.m */; };
 		2240866E1D7074F5007E4E15 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 224086671D7074F5007E4E15 /* YYCache.m */; };
 		2240866F1D7074F5007E4E15 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 224086691D7074F5007E4E15 /* YYDiskCache.m */; };
 		224086701D7074F5007E4E15 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2240866B1D7074F5007E4E15 /* YYKVStorage.m */; };
@@ -100,8 +99,6 @@
 		2240864F1D7074EA007E4E15 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		224086501D7074EA007E4E15 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		224086511D7074EA007E4E15 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		224086521D7074EA007E4E15 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		224086531D7074EA007E4E15 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		224086661D7074F5007E4E15 /* YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
 		224086671D7074F5007E4E15 /* YYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCache.m; sourceTree = "<group>"; };
 		224086681D7074F5007E4E15 /* YYDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDiskCache.h; sourceTree = "<group>"; };
@@ -255,8 +252,6 @@
 				2240864F1D7074EA007E4E15 /* UIProgressView+AFNetworking.m */,
 				224086501D7074EA007E4E15 /* UIRefreshControl+AFNetworking.h */,
 				224086511D7074EA007E4E15 /* UIRefreshControl+AFNetworking.m */,
-				224086521D7074EA007E4E15 /* UIWebView+AFNetworking.h */,
-				224086531D7074EA007E4E15 /* UIWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
@@ -347,7 +342,7 @@
 				TargetAttributes = {
 					22142E251D5E096E00EE2C40 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = YY4NTQ7LN8;
+						DevelopmentTeam = 998FCP6MFT;
 					};
 					22142E3E1D5E096E00EE2C40 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -360,6 +355,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -423,7 +419,6 @@
 				35639C3F1E9B630C00FEA954 /* PPHTTPRequest.m in Sources */,
 				2240865D1D7074EA007E4E15 /* AFImageDownloader.m in Sources */,
 				22142E2E1D5E096E00EE2C40 /* AppDelegate.m in Sources */,
-				224086641D7074EA007E4E15 /* UIWebView+AFNetworking.m in Sources */,
 				22142E2B1D5E096E00EE2C40 /* main.m in Sources */,
 				2240865F1D7074EA007E4E15 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				2240865E1D7074EA007E4E15 /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -562,11 +557,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = YY4NTQ7LN8;
+				DEVELOPMENT_TEAM = 998FCP6MFT;
 				INFOPLIST_FILE = PPNetworkHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkpang.PPNetworkHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jkpang.PPNetworkHelper-lry";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
